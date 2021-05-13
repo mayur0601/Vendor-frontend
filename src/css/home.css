@@ -1,0 +1,31 @@
+.home{
+    background-color: #8080803d;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.searchBox{
+    width:75%;
+   margin-left: 10%;
+   height:40x;
+   outline: none;
+   line-height: 2px;
+   word-spacing: 1px;
+   margin-top: 20px;
+}
+.productLink{
+    text-decoration: none;
+}
+.update_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.form{
+    width:60%;
+}

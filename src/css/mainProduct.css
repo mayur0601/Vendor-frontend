@@ -1,0 +1,29 @@
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.mainproduct{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    border:1px solid black;
+    box-shadow: 5px 10px #2122299e;
+}
+.image_product{
+    margin-top: 20px;
+        width: 500px;
+        height:500px;
+     object-fit: contain;
+     margin-right: 10px;
+     padding-right: 20px;
+}
+.mainproduct_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 4px;
+}

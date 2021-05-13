@@ -1,0 +1,52 @@
+#layout{
+    display: flex;
+    background-color: #5CFF63;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 13px rgba(0,0,0,0.25);
+}
+/* farm 2 */
+.logo_img{
+    height:95px;
+    width:106px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo_list{
+    position: relative;
+    left: -10px;
+    color: white;    
+    list-style: none;
+    font-size: 25px;
+    font: bolder;
+    font-family: 'Russo One', sans-serif;
+}
+
+.navlink{
+    text-decoration: none;
+    padding: 12px;
+    margin-left: 40px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.navlink:hover{
+    background:linear-gradient(275deg,rgba(255,255,255,0.8),rgba(255,255,255,0.2));
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+
+}
+.user{
+    display:flex;
+
+}
+.user_list{
+    list-style-type: none;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+
+}
